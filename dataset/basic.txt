@@ -1,0 +1,54 @@
+Teaching staff contact - Miss Vijaya Durga Chemalamarri E-mail: c.vijaya.durga@gmail.com, Mrs.FatimaFurqan E-mail: Fatima.Furqan@uts.edu.au,Dr.Wenjing Jia E-mail: Wenjing.Jia@uts.edu.au, Mrs.Manpreet Kaur E-mail: Manpreet.Kaur@uts.edu.au,Mr.Graham Lee E-mail: Graham.Lee@uts.edu.au,Mr.Michael Molnar E-mail: Michael.Molnar1@tafensw.edu.au.
+
+Online Chapter Exams on NetSpace - please check UTSonline  Subject Document How to access online curriculum & online exams on www.netacad.com.
+
+Discounts-please check UTSonline Subject Document Step-by-Step Guide to Access and Redeem Certification Exam Discounts.
+
+Packet Tracer-please check UTSonline Lab Information Installing Packet Tracer.
+
+subnetting with VLSM-please check UTSonline Lab Information subnetting with VLSM.
+
+HTTP Status 500-please check UTSonline Lab Information HTTP Status 500.
+
+Internet Connection on Internetworking Lab PCs-please check UTSonline Lab Information Enable Internet Connection on Internetworking Lab PCs
+
+Assessment1 - Due: Week 6 Class time,Weight: 5%,Type:Examination
+Assessment2 - Due:Online Exam 1: Week 6 Class time; Online Exam 2: Week 11 Class time.Weight: 5%,Type: Exercises 
+Assessment3 - Due: Part A: Week 5 Class time; Part B: Week 10 Class time;Weight: 15%,Type: Project.
+Assessment4 - Due:Week 12 Class time, Weight: 25%,Type: Laboratory/practical
+
+Lecture Notes: UTSOnline -> LANS and Routing Spring 2018 -> Lecture Notes: Use these as a guide for your reading of the chapters,again, it’s NOT sufficient to read lecture notes alone but not the text books.
+
+Online textbook: netacad.com
+
+Online Chapter Tests:Netacad.com->32524.18S.CCNA1(ITN)->Assessments.
+
+submission:When, due to extenuating circumstances, you are unable to submit or present an assessment task on time, please contact your subject coordinator before the assessment task is due to discuss an extension.Extensions may be granted up to a maximum of 5 days (120 hours).In all cases you should have extensions confirmed in writing.Work submitted late without an approved extension is subject to a late penalty of 10 per cent of the total available marks deducted per calendar day that the assessment is overdue (e.g.if an assignment is out of 40 marks, and is submitted (up to) 24 hours after the deadline without an extension, the student will have four marks deducted from their awarded mark).Work submitted after five calendar days is not accepted and a mark of zero is awarded.
+
+Missed the First Class:Please check Week 1 Lecture Notes to see what’s been covered, and go through its lab manual.Start pre-reading Week 2 contents now so that you do not get further behind in this subject.Make sure you attend the Week 2 class, when the instructors can help you get familiar with the lab settings.Most importantly, try NOT TO MISS ANY CLASS because each lab there's a great deal to cover. 
+
+The text book for this subject is available electronically free on the so-called “NetSpace” Cisco Networking Academy website (https://www.netacad.com/) for all enrolled students. You can read the text book on both computers and mobile phones/iPads from a web browser as long as you have Internet connection. 
+
+Your Cisco NetSpace account: You should have just received (in your UTS Email Inbox) an Email from me with your temporary user name and password for this website, which you will be asked to change when you first sign in Cisco NetSpace (https://www.netacad.com/) and complete your personal profile as instructed in the Email. 
+
+If you have already got an account (i.e., if you have ever enrolled in this subject before, even though you may never have attended a class), you will use that account to sign in (and will not get the afore-mentioned email any more); 
+
+if you have forgot your password or login, please Email teacher with information of your full name and Student ID number and I will reset it for you.
+
+Access the E-textbook from Cisco NetSpace: Once you’ve completed your profile setup and signed in, the first page you see will be your Cisco Home Page, from this page under the “Learn” tab, you can see there is a class link named as “32524.18S.CCNA1(ITN)”, Click the class name, and you will open your Class Page where all course resources are located, You may click “Launch Course” to access and read the online course curriculum.
+
+Note that, hands-on lab on real equipment starts on Day 1, Therefore, besides some introductory contents, we will cover a bit of each of the Chapters 2, 3, 4 and 7, to prepare you for the first hands-on lab of network building.s For Day 1 class, please prepare yourself by reading through these sections (as listed under Subject Outline "Program") and take notes carefully. 
+
+Group contact - Click 'My Groups' Link, you can see all names of students who are enrol in the same lab to you and you can contact them via 'Send Email' link in 'Group Tools' Bar.
+
+Send Email - you can select one or more student to find a group via 'Send Email'.
+
+Forming - Groups (normally 4 members per group) are to be formed by week 2.
+
+Group Work - Part of the subject assessment is based on team work and groups are formed from within a class and each group normally have four students (maximum four);
+
+Less - Some groups may have only three students each when there is not a multiple of four students in the class, these groups will be expected to work together on a weekly basis. 
+
+Setting Group - Groups should be set up by the end of Week 2 class, a sheet with group members’ names and contact details will need to be handed in by the end of Week 2 class and each member of the group must also have a copy of this sheet.
+
+Member withdraw - If group members withdraw from the subject, the group will have to cooperate with fewer in the group.

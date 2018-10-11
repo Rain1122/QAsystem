@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <style>
+           body {
+                font-family: Garamond;
+            }
+
+            h1 {
+                color: black;
+                margin-bottom: 0;
+                margin-top: 0;
+                text-align: center;
+                font-size: 36px;
+            }
+
+           h2 {
+                color: #0000ff;
+                margin-bottom: 0;
+                margin-top: 0;
+                text-align: center;
+                font-size: 30px;
+            }
+
+           h3 {
+                color: #000000;
+                margin-bottom: 0;
+                margin-top: 0;
+                text-align: left;
+                font-size: 22px;
+            }
+
+           h4 {
+                color: #000000;
+                margin-bottom: 0;
+                margin-top: 0;
+                text-align: left;
+                font-size: 16px;
+            }
+
+            #userInput {
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 40px;
+                width: 40%;
+            }
+
+            #textInput {
+                width: 87%;
+                border: none;
+                border-bottom: 3px solid #009688;
+                font-family: monospace;
+                font-size: 17px;
+            }
+
+            #buttonInput {
+                padding: 3px;
+                font-family: monospace;
+                font-size: 17px;
+            }
+
+
+            .userText span {
+                background-color: #009688;
+                padding: 10px;
+                border-radius: 2px;
+            }
+
+            .botText span {
+                background-color: #b9ddef;
+                padding: 10px;
+                border-radius: 2px;
+                color: #000000;
+                font-family: monospace;
+                font-size: 20px;
+                text-align: left;
+                line-height: 30px;
+            }
+            .quesText span {
+                background-color: rgba(185, 221, 239, 0);
+                {#padding: 10px;#}
+                {#border-radius: 2px;#}
+                color: #0000ff;
+                font-family: monospace;
+                font-size: 16px;
+                text-align: left;
+                {#line-height: 30px;#}
+            }
+            #answer{
+                margin-top: 40px;
+            }
+            #App-ul{
+                list-style-type:none;
+                margin:0;
+                padding:0;
+                overflow:hidden;
+            }
+            #App-li{
+                float:left;
+            }
+            #App-link{
+                display:block;
+                height: 40px;
+                width: 230px;
+                overflow: hidden;
+                margin-left: auto;
+                margin-right: auto;
+                font-weight:bold;
+                color: #000000;
+                background-color: rgba(21, 26, 33, 0);
+                text-align:center;
+                /*padding:10px;*/
+                text-decoration:none;
+            }
+            #App-bar{
+                background-color: rgba(0, 0, 0, 0);
+            }
+
+      </style>
+{#        <script src="http://libs.baidu.com/jquery/1.10.1/jquery.min.js"></script>#}
+{#        <script>#}
+{#        $(function(){#}
+{#            $("#test1").click(function(){#}
+{#                alert("11111");#}
+{#                $("#textInput").val($(this).text());#}
+{##}
+{#            })#}
+{#        });#}
+{#        </script>#}
+{#      <script>#}
+{#        function changeText(text)#}
+{#        {#}
+{#         var element = document.getElementById("test");#}
+{#         element.value = text;#}
+{#        }#}
+{#      </script>#}
+
+  </head>
+
+  <body>
+
+    <h1>LANS and Routing based Question Answering System</h1>
+    <hr>
+    <br>
+    <div id="App-bar">
+                <ul id="App-ul">
+                    <li id="App-li"><a id="App-link" href="https://online.uts.edu.au/webapps/login/">UTS Online</a></li>
+                    <li id="App-li"><a id="App-link" href="https://www.netacad.com/login/">Cisco NetAcad</a></li>
+                    <li id="App-li"><a id="App-link" href="https://mytimetable.uts.edu.au">UTS myTimetable</a></li>
+                    <li id="App-li"><a id="App-link" href="https://onestopadmin.uts.edu.au/eStudent/login.aspx?ReturnUrl=%2feStudent%2fSM%2fEnrDtls10.aspx%3fr%3dUTS.EST.WEB02%26f%3dUTS.EST.ENRDTLS.WEB&r=UTS.EST.WEB02&f=UTS.EST.ENRDTLS.WEB">UTS myStudentAdmin</a></li>
+                    <li id="App-li"><a id="App-link" href="https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=ec3b99dc-12c6-43ea-a939-460346231711&protectedtoken=true&domain_hint=student.uts.edu.au&nonce=636716360856199040.e76fe087-01bc-4d5c-82ff-987bb40ffc41&state=DctJDsIwDEDRBO7CLqkDaYZFxR24QQZbIEGRUltcnyz-232tlDrPTjMNExXDLUQ3gbQGlzN4sBgDIaRowNVmfF-bSVcik1Os1QNR807PF5bvryz3geX92Q6Wjjtb4cNiF1vkUoSfD-yvgY03HoJ_#exsvurl=1&ll-cc=2052&modurl=0">UTS myOutlook</a></li>
+                    <li id="App-li"><a id="App-link" href="https://sso.lib.uts.edu.au/cas/login?service=https%3A%2F%2Fwww.lib.uts.edu.au%2Froombooking%2F%3F_casCheck%3Dtrue">UTS Library</a></li>
+                </ul>
+            </div>
+    <br>
+    <br>
+    <h2>What's your Question?</h2>
+
+{#    <div class="left">#}
+{#        <h1>Cisco</h1>#}
+{#        <hr>#}
+{#        <h3>1. How to create cisco account?</h3>#}
+{#        <br>#}
+{#        <h3>2. Forgot cisco password?</h3>#}
+{#        <br>#}
+{#        <h3>3. What is cisco website?</h3>#}
+{##}
+{#    </div>#}
+{##}
+{#    <div class="right">#}
+{#        <h1>Packet Tracer</h1>#}
+{#        <hr>#}
+{#        <h3>1. How to install packet tracer?</h3>#}
+{#        <br>#}
+{#        <h3>2. How many people can be formed in a group?</h3>#}
+{#        <br>#}
+{#        <h3>3. There is less four students in my team, how should I do?</h3>#}
+{#        <br>#}
+{#        <h3>4. Why group member withdraw this subject, how can I find new members?</h3>#}
+{#    </div>#}
+
+
+    <div>
+          <div id="userInput">
+            <input id="textInput" type="text" name="msg" placeholder="Question">
+            <input id="buttonInput" type="submit" value="Send">
+            <p id="question"> </p>
+            <p id="answer"> </p>
+          </div>
+
+          <script>
+            function getBotResponse() {
+              var rawText = $("#textInput").val();
+
+
+              $.get("/get1", { msg: rawText }).done(function(data) {
+                  var sentence = data.split(";");
+                  var answers = '<p class="botText"><span>' + sentence[0] + '</span></p> ';
+                for (var i=1;i<sentence.length;i++) {
+                    sentence = data.split(";");
+                    var botHtml = '<p class="h3"><span>' + sentence[i]+ '</span></p> ' + '\n';
+
+                    answers = answers + botHtml;
+                }
+                   $("#answer").html(answers);
+                });
+
+               $.get("/get2", { msg: rawText }).done(function(data) {
+                   var sentence = data.split(";");
+                   var question = " ";
+                   if (sentence.length === 0)
+                       question = " ";
+                   else if(sentence.length === 2)
+                       question = '<p class="quesText"><span>' + "Do you mean: " + '<a id="test1" href="#">' + sentence[0] + '</a>' + " or " + '<a id="test2" href="#">' + sentence[1] + '</a>'  + '</span></p> ';
+                   else
+                       question = '<p class="quesText"><span>' + "Do you mean: " + '<a id="test1" href="#">' + sentence[0] + '</a>' + '</span></p> ';
+                   $("#question").html(question);
+
+                   $("#test1").bind("click",(function(){
+
+                        $("#textInput").val($(this).text());
+
+                    }));
+                    $("#test2").bind("click",(function(){
+
+                        $("#textInput").val($(this).text());
+
+                    }));
+               });
+
+
+
+
+            }
+
+            $("#textInput").keypress(function(e) {
+                if (e.which == 13 ) {
+                    getBotResponse();
+                }
+            });
+
+            $("#buttonInput").click(function() {
+              getBotResponse();
+            })
+
+          </script>
+    </div>
+
+  </body>
+</html>
